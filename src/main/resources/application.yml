@@ -9,6 +9,10 @@ spring:
           google:
             clientID: 504219030031-fgo3mu200427tn60fuhi25k12ecbjdfd.apps.googleusercontent.com
             clientSecret: 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
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
 server:
   port: 8080
   hostname: localhost
